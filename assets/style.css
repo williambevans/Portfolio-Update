@@ -235,10 +235,14 @@ figcaption {
 }
 
 .contact {
-    background: #f2f2f2;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 50%, #f2f2f2 50%);
     padding: 35px 0;
     position: relative;
-    height: 90vh;
+    height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
 }
 
 .social {
@@ -523,7 +527,7 @@ figcaption {
 }
 
 .fa-mailchimp:before {
-    font-size: 70px;
+    font-size: 200px;
     text-align: center;
 }
 
@@ -535,4 +539,20 @@ h3.monkeyTXT {
     font-family: "Merriweather",serif;
     font-size: 24px;
     font-style: italic;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.findMe {
+    text-align: center;
+}
+
+.icons {
+    margin-left: 10px
+}
+
+.fullContactMe {
+    margin-top: 50px;
 }
