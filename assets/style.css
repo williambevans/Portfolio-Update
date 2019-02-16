@@ -1,0 +1,538 @@
+.row {
+    display: flex;
+}
+
+.row.about-me,
+.row.services,
+.row.fun-facts,
+.row.footer,
+.row.resume,
+.row.skills,
+.row.portfolioContainer,
+.row.contact,
+.row.social,
+.single-page {
+    overflow: hidden;
+}
+
+figcaption {
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 100vh;
+    text-align: center;
+}
+
+#profile {
+    background-image: url("./images/IMG_0196.JPG");
+    opacity: 0.9;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+}
+
+#resume {
+    background-image: url("./images/Screen\ Shot\ 2019-02-14\ at\ 12.14.19\ AM.png");
+    opacity: 0.9;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+}
+
+#portfolio {
+    background-image: url("./images/Screen\ Shot\ 2019-02-14\ at\ 12.22.13\ AM.png");
+    opacity: 0.9;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+}
+
+#contact {
+    background-image: url("./images/Screen\ Shot\ 2019-02-14\ at\ 12.25.01\ AM.png");
+    opacity: 0.9;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+}
+
+#piper {
+    margin-top: 305px;
+}
+
+.fa-pied-piper-alt:before {
+    margin-right: 30px;
+}
+
+.page-title {
+    margin-top: 330px;
+}
+
+#bio,
+#dropResume,
+#dropPortfolio,
+#dropContact {
+    display: none;
+    height: 100vh;
+}
+
+.profileAbout,
+.academic,
+.shout,
+.works {
+    display: none;
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    line-height: 1.2;
+    padding: .5em 2em;
+}
+
+.resume {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 50%, #f2f2f2 50%);
+}
+
+.edu-list {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.employment-list {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.resume .education h2,
+.resume .employment h2 {
+    color: #3f3f46;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 36px 0;
+    text-transform: uppercase;
+    font-family: "Merriweather", serif;
+}
+
+.education ul li h3,
+.employment ul li h3 {
+    color: #636368;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.education ul li h4,
+.employment ul li h4 {
+    color: #3f3f46;
+    font-family: "Merriweather", sans-serif;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.education ul li span,
+.employment ul li span {
+    color: #0ed4c8;
+    display: inline-block;
+    margin: 5px 0 10px;
+    font-size: 13px;
+}
+
+.education ul li p,
+.employment ul li p {
+    color: #838c95;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 5px 0;
+}
+
+.skills {
+    background: linear-gradient(90deg, #0ed4c8 50%, #64e4d8 50%);
+    overflow: hidden;
+    padding: 35px 0;
+    position: relative;
+    height: 105vh;
+}
+
+
+.skills .sec-divider {
+
+    display: block;
+    height: 52px;
+    margin: 30px auto 0;
+    width: 52px;
+}
+
+
+.section-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-container {
+    display: block;
+    margin: 30px auto;
+}
+
+.fa-tools {
+    margin-bottom: 10px;
+}
+
+.col-lg-4 {
+    width: 33.33333333%;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioWorks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row .progress {
+
+    background: linear-gradient(90deg, #0ed4c8 50%, #64e4d8 50%);
+    padding: 35px 0;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    height: 25vh;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.row .footer {
+
+    background: slategray;
+    height: 7vh;
+}
+
+.name {
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.row .form-container {
+
+    background: rgba(255, 255, 255, 0.6);
+    margin-bottom: 70px;
+    padding: 40px;
+    position: relative;
+}
+
+.contact {
+    background: #f2f2f2;
+    padding: 35px 0;
+    position: relative;
+    height: 90vh;
+}
+
+.social {
+    background: #fe7c60;
+    position: relative;
+    height: 50vh;
+    color: white;
+}
+
+.social ul li {
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+}
+
+.findMe li {
+    border-right: 2px solid white;
+
+}
+
+.findMe li:last-child {
+    border-right: none;
+}
+
+.fullContact {
+    margin-top: 120px;
+}
+
+.icons {
+    margin-top: 35px;
+}
+
+.findMe ul li {
+    width: 30%;
+}
+
+
+.footer span {
+    color: #b1b1b1;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 7px;
+    margin-top: 21px;
+}
+
+
+
+.dallas {
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+.employment:last-child {
+    margin-bottom: 70px;
+}
+
+
+.about-me {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 50%, #f2f2f2 50%);
+    overflow: hidden;
+    position: relative;
+    height: 70vh;
+    color: black;
+
+}
+
+.services {
+    background: linear-gradient(90deg, salmon 50%, lightcoral 50%);
+    overflow: hidden;
+    position: relative;
+    height: 70vh;
+    color: white;
+}
+
+.fun-facts {
+    background-image: url("./images/Screen\ Shot\ 2019-02-15\ at\ 12.04.08\ AM.png");
+    overflow: hidden;
+    position: relative;
+    height: 28vh;
+    color: white;
+    background-size: cover;
+    background-position: center top;
+}
+
+.fun-facts ul li {
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #fff;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    width: 20%;
+    margin-top: 50px;
+
+}
+
+.fun-facts h3 {
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.fun-facts h5 {
+    font-family: pt sans;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.about-me .profile-image h2 {
+    color: #50626C;
+    font-family: "PT Sans", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 0.8em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.about-me .profile-image h3 {
+    color: #4c4c50;
+    display: block;
+    font-family: "Merriweather";
+    margin-top: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: left;
+}
+
+.profile-image {
+    margin-top: 90px;
+    margin-left: 10%;
+}
+
+.avatar {
+    margin-bottom: 24px;
+}
+
+.about-me .bio h3 {
+    color: #3f3f46;
+    font-family: PT Sans;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.about-me .bio p {
+    color: #555;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 22px;
+}
+
+.hire-me.btn,
+.download-resume.btn {
+    background: #50626C;
+    border-color: #50626C;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 15px auto 5px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+}
+
+.bio {
+    margin-top: 70px;
+}
+
+.kate {
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 6px;
+}
+
+.portfolioWorks img {
+    margin: 30px;
+    border: 10px solid #fff;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.portfolioContainer {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.portfolioClients {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 50%, #f2f2f2 50%);
+
+    padding: 35px 0;
+    position: relative;
+    height: 60vh;
+}
+
+.portfolioClients blockquote p {
+    color: #3f3f46;
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 28px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.portfolioClients blockquote cite {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    line-height: 18px;
+    color: #3f3f46;
+}
+
+.clientsContainer {
+    margin-top: 39px;
+}
+
+.service-list .service h3 {
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.service-list {
+    margin-top: 11%;
+}
+
+.fa-lightbulb:before,
+.fa-connectdevelop:before,
+.fa-mobile-alt:before,
+.fa-people-carry:before {
+    font-size: 60px;
+    border-radius: 20%;
+    border-color: white;
+    border-style: solid;
+    padding: 13px;
+    color: salmon;
+    background: white;
+    box-shadow: 0 0 0 5px hsl(0, 6%, 80%)
+}
+
+.service {
+    text-align: center;
+}
+
+.service-list .service p {
+    color: #f9f9f9;
+    font-family: PT Sans;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 5px 10px;
+}
+
+.page-close {
+    color: darkslategray;
+    display: none;
+    font-size: 60px;
+    float: right;  
+    margin-right: 7%;
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+.fa-mailchimp:before {
+    font-size: 70px;
+    text-align: center;
+}
+
+.monkey {
+    text-align: center;
+}
+
+h3.monkeyTXT {
+    font-family: "Merriweather",serif;
+    font-size: 24px;
+    font-style: italic;
+}
