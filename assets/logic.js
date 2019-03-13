@@ -102,9 +102,9 @@ $(document).ready(function () {
 
     //close page
     $('.page-close').on('click', function () {
-
+        console.log('close test');
+        location.reload();
         
-        $("#bio").css("display", "none")
     });
 
     $("#profile").mouseover(function () {
@@ -132,8 +132,9 @@ $(document).ready(function () {
             $(".shout").css("display", "none")
         });
 
-
 });
+
+
 
 
 
